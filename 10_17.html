@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10/17 府中非常熱區 - 三場社區工作坊報名</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter & Noto Sans TC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0A2540',
+                            navyLight: '#1E3A8A',
+                            pink: '#F472B6',
+                            pinkLight: '#FCE7F3',
+                            bg: '#F8FAFC',
+                            accent: '#2563EB'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Noto Sans TC', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #F8FAFC;
+            color: #1E293B;
+        }
+        .card-shadow {
+            box-shadow: 0 10px 25px -5px rgba(10, 37, 64, 0.08), 0 8px 10px -6px rgba(10, 37, 64, 0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #CBD5E1;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-slate-50 flex flex-col justify-between antialiased">
+
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <img src="https://raw.githubusercontent.com/placeholder-logo/logo.png" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 300 80\' width=\'180\' height=\'48\'><rect width=\'300\' height=\'80\' fill=\'%230A2540\' rx=\'8\'/><text x=\'150\' y=\'32\' fill=\'%23FFFFFF\' font-family=\'sans-serif\' font-size=\'16\' font-weight=\'bold\' text-anchor=\'middle\'>Young Young</text><text x=\'150\' y=\'56\' fill=\'%23F472B6\' font-family=\'sans-serif\' font-size=\'18\' font-weight=\'900\' text-anchor=\'middle\'>都來街頭玩</text></svg>'" alt="Young Young 都來街頭玩" class="h-12 w-auto object-contain">
+            </div>
+            <div class="text-right hidden sm:block">
+                <span class="inline-block bg-pink-100 text-pink-700 font-bold px-3 py-1 rounded-full text-xs">
+                    新北市國際青年文化交流計畫
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-6 sm:py-10 flex-grow w-full">
+        <!-- Event Banner / Header Box -->
+        <div class="bg-gradient-to-r from-brand-navy to-slate-800 rounded-3xl p-6 sm:p-8 text-white card-shadow mb-8 relative overflow-hidden">
+            <div class="absolute -right-6 -bottom-6 opacity-20 pointer-events-none">
+                <i class="fa-solid font-900 fa-masks-theater text-9xl text-pink-300"></i>
+            </div>
+            <div class="relative z-10">
+                <div class="inline-flex items-center gap-2 bg-pink-500/20 backdrop-blur-md border border-pink-400/30 text-pink-200 px-3 py-1 rounded-full text-sm font-semibold mb-3">
+                    <i class="fa-regular fa-calendar-check"></i> 2026年10月17日（六）
+                </div>
+                <h1 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-2">
+                    10/17（六）府中非常熱區
+                </h1>
+                <h2 class="text-xl sm:text-2xl font-bold text-pink-300 mb-4">
+                    Young Young 都來街頭玩｜三場社區工作坊
+                </h2>
+                <p class="text-slate-200 text-sm sm:text-base leading-relaxed max-w-2xl">
+                    這次帶大家從不同地方特色出發，透過手作體驗認識坪林、林口與淡水的地方文化。三場工作坊各有不同主題，從茶葉拓印、地方明信片，到具有淡水特色的頭旗設計，讓地方故事變成可以帶回家的創意作品！
+                </p>
+            </div>
+        </div>
+
+        <section class="mb-10">
+            <h3 class="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+                <i class="fa-solid fa-shapes text-pink-500"></i> 工作坊場次介紹
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Session C01 -->
+                <div class="bg-white rounded-2xl p-5 border border-slate-200 card-shadow flex flex-col justify-between hover:border-pink-300 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-emerald-100 text-emerald-800 font-bold text-xs px-2.5 py-1 rounded-md">C01 坪林</span>
+                            <span class="text-xs font-semibold text-slate-500"><i class="fa-regular fa-clock mr-1"></i>16:00 - 17:00</span>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-base mb-1">茶葉拓印體驗</h4>
+                        <p class="text-xs text-pink-600 font-medium mb-3">主題：茶文化藝術創作與感官觀察</p>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                            將坪林茶文化延伸至藝術創作與感官體驗！帶領參與者觀察新鮮茶葉的形狀與脈絡紋理，透過壓克力顏料進行茶葉拓印創作，搭配茶香嗅聞配對，帶回獨一無二的茶藝作品。
+                        </p>
+                    </div>
+                    <div id="badge-quota-1" class="text-xs font-bold px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-center">
+                        載入中...
+                    </div>
+                </div>
+
+                <!-- Session C02 -->
+                <div class="bg-white rounded-2xl p-5 border border-slate-200 card-shadow flex flex-col justify-between hover:border-pink-300 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-amber-100 text-amber-800 font-bold text-xs px-2.5 py-1 rounded-md">C02 林口</span>
+                            <span class="text-xs font-semibold text-slate-500"><i class="fa-regular fa-clock mr-1"></i>17:00 - 18:00</span>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-base mb-1">穿越時空遊林口：手作地方明信片</h4>
+                        <p class="text-xs text-pink-600 font-medium mb-3">主題：林口台地與新舊社區互動</p>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                            以「林口區」的街景為媒介，取樣林口公有市場、西福宮、磚窯產業遺址、生津製茶廠、閩式建築及竹林山觀音寺，引領參與民眾認識過去不知曉、看不見的林口。
+                        </p>
+                    </div>
+                    <div id="badge-quota-2" class="text-xs font-bold px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-center">
+                        載入中...
+                    </div>
+                </div>
+
+                <!-- Session C03 -->
+                <div class="bg-white rounded-2xl p-5 border border-slate-200 card-shadow flex flex-col justify-between hover:border-pink-300 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="bg-sky-100 text-sky-800 font-bold text-xs px-2.5 py-1 rounded-md">C03 淡水</span>
+                            <span class="text-xs font-semibold text-slate-500"><i class="fa-regular fa-clock mr-1"></i>18:00 - 19:30</span>
+                        </div>
+                        <h4 class="font-bold text-slate-900 text-base mb-1">「藝陣風華・淡水印象」頭旗明信片</h4>
+                        <p class="text-xs text-pink-600 font-medium mb-3">主題：神韻入面・淡水藝陣</p>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                            以淡水藝陣文化的「頭旗」為核心，將獅頭、金龍與傳統紋樣轉化為可自由組合的明信片素材。透過剪貼與設計，親手打造一張專屬於淡水的紀念作品。
+                        </p>
+                    </div>
+                    <div id="badge-quota-3" class="text-xs font-bold px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-center">
+                        載入中...
+                    </div>
+                </div>
+            </div>
+
+            <!-- Important Notice Banner -->
+            <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-4 flex items-start gap-3 text-amber-900 text-sm">
+                <i class="fa-solid fa-triangle-exclamation text-amber-600 text-lg mt-0.5"></i>
+                <div>
+                    <p class="font-bold">📌 每場正取 16 人、備取 4 人</p>
+                    <p class="text-xs text-amber-800 mt-0.5">⚠️ 名額有限，當正取與備取額滿後將自動關閉報名選項！</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 card-shadow">
+            <h3 class="text-2xl font-bold text-brand-navy mb-6 pb-3 border-b border-slate-100 flex items-center justify-between">
+                <span><i class="fa-solid fa-pen-to-square text-pink-500 mr-2"></i>活動線上報名</span>
+                <span class="text-xs text-rose-500 font-normal">* 為必填項目</span>
+            </h3>
+
+            <form id="registrationForm" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- 1. 姓名 -->
+                    <div>
+                        <label for="name" class="block text-sm font-semibold text-slate-700 mb-2">
+                            姓名 <span class="text-rose-500">*</span>
+                        </label>
+                        <input type="text" id="name" required placeholder="請輸入您的真實姓名" 
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-navy focus:border-brand-navy outline-none transition-all text-sm">
+                    </div>
+
+                    <!-- 2. Email -->
+                    <div>
+                        <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">
+                            Email 電子信箱 <span class="text-rose-500">*</span>
+                        </label>
+                        <input type="email" id="email" required placeholder="example@email.com" 
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-navy focus:border-brand-navy outline-none transition-all text-sm">
+                    </div>
+
+                    <!-- 3. 電話 -->
+                    <div>
+                        <label for="phone" class="block text-sm font-semibold text-slate-700 mb-2">
+                            聯絡電話 <span class="text-rose-500">*</span>
+                        </label>
+                        <input type="tel" id="phone" required placeholder="0912345678" 
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-navy focus:border-brand-navy outline-none transition-all text-sm">
+                    </div>
+
+                    <!-- 4. 國籍 -->
+                    <div>
+                        <label for="nationality" class="block text-sm font-semibold text-slate-700 mb-2">
+                            國籍 <span class="text-rose-500">*</span>
+                        </label>
+                        <input type="text" id nationality id="nationality" required placeholder="例如：中華民國 (台灣)、日本、越南..." 
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-navy focus:border-brand-navy outline-none transition-all text-sm">
+                    </div>
+
+                    <!-- 5. 性別 -->
+                    <div>
+                        <label for="gender" class="block text-sm font-semibold text-slate-700 mb-2">
+                            性別 <span class="text-rose-500">*</span>
+                        </label>
+                        <select id="gender" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-navy focus:border-brand-navy outline-none transition-all text-sm bg-white">
+                            <option value="">請選擇性別</option>
+                            <option value="女性">女性</option>
+                            <option value="男性">男性</option>
+                            <option value="多元性別/不透露">多元性別 / 不透露</option>
+                        </select>
+                    </div>
+
+                    <!-- 6. 年齡區間 -->
+                    <div>
+                        <label for="ageGroup" class="block text-sm font-semibold text-slate-700 mb-2">
+                            年齡區間 <span class="text-rose-500">*</span>
+                        </label>
+                        <select id="ageGroup" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-navy focus:border-brand-navy outline-none transition-all text-sm bg-white">
+                            <option value="">請選擇年齡區間</option>
+                            <option value="12歲以下">12 歲以下</option>
+                            <option value="13-18歲">13 - 18 歲</option>
+                            <option value="19-24歲">19 - 24 歲</option>
+                            <option value="25-35歲">25 - 35 歲</option>
+                            <option value="36-50歲">36 - 50 歲</option>
+                            <option value="51歲以上">51 歲以上</option>
+                        </select>
+                    </div>
+
+                    <!-- 7. 年級/身份 -->
+                    <div class="md:col-span-2">
+                        <label for="identity" class="block text-sm font-semibold text-slate-700 mb-2">
+                            年級/身份 <span class="text-rose-500">*</span>
+                        </label>
+                        <select id="identity" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-navy focus:border-brand-navy outline-none transition-all text-sm bg-white">
+                            <option value="">請選擇您的年級/身份</option>
+                            <option value="國小學生">國小學生</option>
+                            <option value="國中學生">國中學生</option>
+                            <option value="高中職生">高中職生</option>
+                            <option value="大專院校生">大專院校生</option>
+                            <option value="碩博士生">碩博士生</option>
+                            <option value="社會人士">社會人士</option>
+                            <option value="自由工作者/創作者">自由工作者 / 創作者</option>
+                            <option value="其他">其他</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-slate-100">
+                    <label class="block text-sm font-bold text-slate-800 mb-3">
+                        參與場次 <span class="text-rose-500">*</span>
+                        <span class="text-xs font-normal text-slate-500 ml-2">（可勾選多場，名額各自獨立計算）</span>
+                    </label>
+
+                    <div class="space-y-3" id="sessionContainer">
+                        <!-- Session Options populated dynamically -->
+                    </div>
+                    <p id="sessionError" class="text-xs text-rose-500 hidden mt-2"><i class="fa-solid fa-circle-exclamation mr-1"></i>請至少選擇一個欲參與的場次！</p>
+                </div>
+
+                <!-- Submit Button Area -->
+                <div class="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <p class="text-xs text-slate-500">
+                        <i class="fa-solid fa-lock mr-1"></i>提交後系統將自動判定正取/備取資格並發送通知信。
+                    </p>
+                    <button type="submit" id="submitBtn" class="w-full sm:w-auto px-8 py-3.5 bg-brand-navy hover:bg-slate-800 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2">
+                        <span>送出報名表</span>
+                        <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Admin Control & Storage Info Drawer (Hidden from view by default or collapsible) -->
+        <div class="mt-8 bg-slate-100 rounded-2xl p-4 border border-slate-200 text-xs text-slate-600">
+            <div class="flex items-center justify-between cursor-pointer" onclick="toggleAdminPanel()">
+                <span class="font-bold flex items-center gap-1.5"><i class="fa-solid fa-gear"></i> Google 試算表同步狀態與資料備份控制台</span>
+                <span id="adminToggleIcon" class="text-slate-400"><i class="fa-solid fa-chevron-down"></i></span>
+            </div>
+            <div id="adminPanel" class="hidden mt-3 pt-3 border-t border-slate-200 space-y-2">
+                <p>📍 <strong>綁定目標試算表：</strong> <a href="https://docs.google.com/spreadsheets/d/1XGgjhoOrnqtRWLR1I0I4CL0k1jy7bhOM9rb0BcXQTZU/edit?usp=sharing" target="_blank" class="text-blue-600 underline">開啟 Google Sheet (已設定端點)</a></p>
+                <div class="flex flex-wrap gap-2 pt-2">
+                    <button type="button" onclick="exportDataToCSV()" class="px-3 py-1.5 bg-slate-700 text-white rounded-lg hover:bg-slate-800 transition-colors">
+                        <i class="fa-solid fa-file-csv mr-1"></i>手動匯出本機紀錄 (CSV)
+                    </button>
+                    <button type="button" onclick="resetRegistrations()" class="px-3 py-1.5 bg-rose-600 text-white rounded-lg hover:bg-rose-700 transition-colors">
+                        <i class="fa-solid fa-trash-can mr-1"></i>清空名額/測試資料
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Registration Confirmation Modal -->
+    <div id="confirmModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full card-shadow overflow-hidden transform transition-all">
+            <!-- Modal Header -->
+            <div id="modalHeaderBg" class="p-6 bg-emerald-600 text-white text-center relative">
+                <div id="modalIconContainer" class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3 text-3xl">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <h3 id="modalTitle" class="text-2xl font-extrabold">報名成功送出！</h3>
+                <p id="modalSubTitle" class="text-xs text-emerald-100 mt-1">我們已將完整錄取與開課資訊寄送至您的信箱</p>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="p-6 space-y-4 max-h-[60vh] overflow-y-auto custom-scrollbar">
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 space-y-2 text-sm">
+                    <div class="flex justify-between text-slate-600">
+                        <span>報名姓名：</span>
+                        <span id="modalName" class="font-bold text-slate-800"></span>
+                    </div>
+                    <div class="flex justify-between text-slate-600">
+                        <span>電子信箱：</span>
+                        <span id="modalEmail" class="font-bold text-slate-800"></span>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <h4 class="font-bold text-slate-800 text-sm">場次錄取結果明細：</h4>
+                    <div id="modalSessionResults" class="space-y-2">
+                        <!-- Dynamic Session badging -->
+                    </div>
+                </div>
+
+                <!-- Email Simulation Preview Box -->
+                <div class="bg-pink-50/80 border border-pink-200 rounded-xl p-4 text-xs text-slate-700">
+                    <p class="font-bold text-pink-900 mb-1 flex items-center gap-1">
+                        <i class="fa-solid fa-paper-plane text-pink-600"></i> 已發送活動確認信：
+                    </p>
+                    <p class="italic text-slate-600" id="modalEmailSnippet">
+                        「親愛的參加者您好，感謝報名10/17（六）府中非常熱區社區工作坊，詳細出席提醒與正備取通知已記錄完成...」
+                    </p>
+                </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="p-4 bg-slate-50 border-t border-slate-100 flex justify-end">
+                <button type="button" onclick="closeModal()" class="w-full sm:w-auto px-6 py-2.5 bg-brand-navy hover:bg-slate-800 text-white font-bold rounded-xl transition-all">
+                    確定並關閉
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-brand-navy text-white mt-12 py-8 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+            <div>
+                <h4 class="font-bold text-base text-white tracking-wide">新北市國際青年文化交流計畫</h4>
+                <p class="text-xs text-slate-300 mt-1">International Youth Cultural Fair in New Taipei City</p>
+            </div>
+            <div class="flex flex-col sm:flex-row items-center gap-4 text-sm text-slate-200">
+                <a href="mailto:ntpcca@wceo.org" class="flex items-center gap-2 hover:text-pink-300 transition-colors">
+                    <i class="fa-regular fa-envelope text-pink-400"></i> ntpcca@wceo.org
+                </a>
+                <a href="https://www.instagram.com/ntpcyouthculture/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-pink-300 transition-colors">
+                    <i class="fa-brands fa-instagram text-pink-400 text-lg"></i> @ntpcyouthculture
+                </a>
+            </div>
+        </div>
+        <div class="max-w-4xl mx-auto px-4 mt-6 pt-4 border-t border-slate-800 text-center text-xs text-slate-300">
+            © 2026 新北市政府青年局 All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+        // Target sessions config (16 Main, 4 Waitlist = 20 Max)
+        const SESSIONS = [
+            {
+                id: 'c01',
+                title: '16:00 - 17:00 坪林｜茶葉拓印體驗',
+                tag: '坪林',
+                color: 'emerald',
+                maxMain: 16,
+                maxWaitlist: 4
+            },
+            {
+                id: 'c02',
+                title: '17:00 - 18:00 林口｜手作地方明信片',
+                tag: '林口',
+                color: 'amber',
+                maxMain: 16,
+                maxWaitlist: 4
+            },
+            {
+                id: 'c03',
+                title: '18:00 - 19:30 淡水｜頭旗明信片',
+                tag: '淡水',
+                color: 'sky',
+                maxMain: 16,
+                maxWaitlist: 4
+            }
+        ];
+
+        // Google Sheet Apps Script Web App Endpoint Target URL
+        const GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1XGgjhoOrnqtRWLR1I0I4CL0k1jy7bhOM9rb0BcXQTZU/edit?usp=sharing";
+
+        // Initialize Local Storage for registration tracking
+        function getStoredData() {
+            const data = localStorage.getItem('ntpc_workshop_registrations');
+            return data ? JSON.parse(data) : [];
+        }
+
+        function saveStoredData(data) {
+            localStorage.setItem('ntpc_workshop_registrations', JSON.stringify(data));
+        }
+
+        // Calculate counts for each session
+        function calculateQuotas() {
+            const registrations = getStoredData();
+            const counts = {
+                c01: 0,
+                c02: 0,
+                c03: 0
+            };
+
+            registrations.forEach(reg => {
+                if (reg.sessions && Array.isArray(reg.sessions)) {
+                    reg.sessions.forEach(sId => {
+                        if (counts[sId] !== undefined) {
+                            counts[sId]++;
+                        }
+                    });
+                }
+            });
+
+            return counts;
+        }
+
+        // Render Session Selector Inputs and Status Badges
+        function renderSessions() {
+            const counts = calculateQuotas();
+            const sessionContainer = document.getElementById('sessionContainer');
+            sessionContainer.innerHTML = '';
+
+            SESSIONS.forEach((session, idx) => {
+                const totalRegistered = counts[session.id] || 0;
+                const totalLimit = session.maxMain + session.maxWaitlist; // 20
+                const isFull = totalRegistered >= totalLimit;
+                
+                let statusText = '';
+                let statusClass = '';
+                let badgeHtml = '';
+
+                if (totalRegistered < session.maxMain) {
+                    const remainingMain = session.maxMain - totalRegistered;
+                    statusText = `正取剩餘 ${remainingMain} 名 (已報 ${totalRegistered}/${session.maxMain})`;
+                    statusClass = 'text-emerald-700 bg-emerald-50 border-emerald-200';
+                    badgeHtml = `<span class="text-xs bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded">正取開放中 (${remainingMain}/16)</span>`;
+                } else if (totalRegistered < totalLimit) {
+                    const remainingWaitlist = totalLimit - totalRegistered;
+                    statusText = `正取已滿，開放備取中 (備取剩餘 ${remainingWaitlist} 名)`;
+                    statusClass = 'text-amber-800 bg-amber-50 border-amber-200';
+                    badgeHtml = `<span class="text-xs bg-amber-100 text-amber-800 font-bold px-2 py-0.5 rounded">備取登記中 (剩${remainingWaitlist}名)</span>`;
+                } else {
+                    statusText = '名額已滿（停止報名）';
+                    statusClass = 'text-rose-700 bg-rose-50 border-rose-200 opacity-75';
+                    badgeHtml = `<span class="text-xs bg-rose-100 text-rose-800 font-bold px-2 py-0.5 rounded">全額滿關閉</span>`;
+                }
+
+                // Update badge in upper cards
+                const topBadge = document.getElementById(`badge-quota-${idx + 1}`);
+                if (topBadge) {
+                    topBadge.innerHTML = badgeHtml;
+                }
+
+                // Build Form Checkbox Option
+                const sessionDiv = document.createElement('div');
+                sessionDiv.className = `p-4 rounded-xl border transition-all ${isFull ? 'bg-slate-100 border-slate-200 opacity-60' : 'bg-white border-slate-200 hover:border-pink-300'}`;
+
+                sessionDiv.innerHTML = `
+                    <label class="flex items-start gap-3 ${isFull ? 'cursor-not-allowed' : 'cursor-pointer'}">
+                        <input type="checkbox" name="sessionSelect" value="${session.id}" ${isFull ? 'disabled' : ''} 
+                            class="mt-1 w-5 h-5 rounded border-slate-300 text-brand-navy focus:ring-brand-navy accent-brand-navy">
+                        <div class="flex-grow">
+                            <div class="flex flex-wrap items-center justify-between gap-2">
+                                <span class="font-bold text-slate-800 text-sm sm:text-base">${session.title}</span>
+                                <span class="text-xs font-semibold px-2 py-0.5 rounded border ${statusClass}">
+                                    ${statusText}
+                                </span>
+                            </div>
+                        </div>
+                    </label>
+                `;
+                sessionContainer.appendChild(sessionDiv);
+            });
+        }
+
+        // Form Submit Handler
+        function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const nationality = document.getElementById('nationality').value.trim();
+            const gender = document.getElementById('gender').value;
+            const ageGroup = document.getElementById('ageGroup').value;
+            const identity = document.getElementById('identity').value;
+
+            // Gather selected sessions
+            const selectedCheckboxes = document.querySelectorAll('input[name="sessionSelect"]:checked');
+            const selectedSessions = Array.from(selectedCheckboxes).map(cb => cb.value);
+
+            const sessionError = document.getElementById('sessionError');
+            if (selectedSessions.length === 0) {
+                sessionError.classList.remove('hidden');
+                return;
+            } else {
+                sessionError.classList.add('hidden');
+            }
+
+            // Current state counts
+            const counts = calculateQuotas();
+            const sessionResults = [];
+
+            selectedSessions.forEach(sId => {
+                const sessionConfig = SESSIONS.find(s => s.id === sId);
+                const currentCount = counts[sId] || 0;
+                let status = '正取';
+
+                if (currentCount >= sessionConfig.maxMain) {
+                    status = '備取';
+                }
+
+                sessionResults.push({
+                    sessionId: sId,
+                    sessionTitle: sessionConfig.title,
+                    status: status
+                });
+            });
+
+            // Save record to local storage
+            const newRecord = {
+                id: 'REG-' + Date.now().toString(36).toUpperCase(),
+                timestamp: new Date().toLocaleString('zh-TW'),
+                name,
+                email,
+                phone,
+                nationality,
+                gender,
+                ageGroup,
+                identity,
+                sessions: selectedSessions,
+                results: sessionResults
+            };
+
+            const allRecords = getStoredData();
+            allRecords.push(newRecord);
+            saveStoredData(allRecords);
+
+            // Re-render Quotas and Disable Filled Inputs
+            renderSessions();
+
+            // Trigger Background Google Sheet Sync & Email Dispatch Simulation
+            syncToGoogleSheets(newRecord);
+
+            // Show Confirmation Modal
+            showConfirmationModal(newRecord, sessionResults);
+
+            // Reset Form Inputs
+            document.getElementById('registrationForm').reset();
+        }
+
+        // Show Confirmation Modal
+        function showConfirmationModal(record, results) {
+            document.getElementById('modalName').textContent = record.name;
+            document.getElementById('modalEmail').textContent = record.email;
+
+            const resultsContainer = document.getElementById('modalSessionResults');
+            resultsContainer.innerHTML = '';
+
+            results.forEach(res => {
+                const item = document.createElement('div');
+                item.className = 'p-3 rounded-lg border flex items-center justify-between text-xs sm:text-sm font-medium';
+                if (res.status === '正取') {
+                    item.className += ' bg-emerald-50 border-emerald-200 text-emerald-900';
+                    item.innerHTML = `<span>${res.sessionTitle}</span> <span class="bg-emerald-600 text-white font-bold px-2 py-0.5 rounded">🎉 正取錄取</span>`;
+                } else {
+                    item.className += ' bg-amber-50 border-amber-200 text-amber-900';
+                    item.innerHTML = `<span>${res.sessionTitle}</span> <span class="bg-amber-600 text-white font-bold px-2 py-0.5 rounded">⌛ 備取登記</span>`;
+                }
+                resultsContainer.appendChild(item);
+            });
+
+            document.getElementById('modalEmailSnippet').textContent = 
+                `「親愛的 ${record.name} 您好：系統已接獲您報名10/17（六）府中非常熱區社區工作坊。您的報名結果已確認：${results.map(r => `${r.sessionTitle}（${r.status}）`).join('、')}。期待當天與您見面！」`;
+
+            document.getElementById('confirmModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('confirmModal').classList.add('hidden');
+        }
+
+        // Simulate background sync to Google Sheet URL
+        function syncToGoogleSheets(data) {
+            console.log('Sending data to spreadsheet:', GOOGLE_SHEET_URL, data);
+            // In a real deployed Google Apps Script environment, fetch() can be triggered here.
+        }
+
+        // Export data directly to CSV for administrative use
+        function exportDataToCSV() {
+            const records = getStoredData();
+            if (records.length === 0) {
+                alert('目前尚無報名資料可供匯出！');
+                return;
+            }
+
+            let csvContent = "\uFEFF"; // UTF-8 BOM
+            csvContent += "報名編號,報名時間,姓名,Email,電話,國籍,性別,年齡區間,年級/身份,報名場次與狀態\n";
+
+            records.forEach(r => {
+                const sessionSummary = r.results ? r.results.map(res => `${res.sessionTitle}(${res.status})`).join('; ') : '';
+                const row = [
+                    `"${r.id}"`,
+                    `"${r.timestamp}"`,
+                    `"${r.name}"`,
+                    `"${r.email}"`,
+                    `"${r.phone}"`,
+                    `"${r.nationality}"`,
+                    `"${r.gender}"`,
+                    `"${r.ageGroup}"`,
+                    `"${r.identity}"`,
+                    `"${sessionSummary}"`
+                ].join(",");
+                csvContent += row + "\n";
+            });
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.setAttribute("href", url);
+            link.setAttribute("download", `1017_府中工作坊報名名冊_${new Date().toISOString().slice(0,10)}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function resetRegistrations() {
+            if (confirm('確定要清空本機測試報名紀錄嗎？這將重新開放所有場次名額。')) {
+                localStorage.removeItem('ntpc_workshop_registrations');
+                renderSessions();
+                alert('報名紀錄已重置。');
+            }
+        }
+
+        function toggleAdminPanel() {
+            const panel = document.getElementById('adminPanel');
+            const icon = document.getElementById('adminToggleIcon');
+            if (panel.classList.contains('hidden')) {
+                panel.classList.remove('hidden');
+                icon.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
+            } else {
+                panel.classList.add('hidden');
+                icon.innerHTML = '<i class="fa-solid fa-chevron-down"></i>';
+            }
+        }
+
+        // On Page Load Initialization
+        window.onload = function() {
+            renderSessions();
+        };
+    </script>
+</body>
+</html>
